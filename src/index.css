@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+    }
+    html,
+    body {
+    height: 100vh;
+    font-family: 'Work Sans', system-ui, arial;
+    }
+    .campaign-gradient {
+        background-image: linear-gradient(293.46deg,#0e1844,#273576 98.45%);
+    }
+    .ortala {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .herosection-background-large {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/100/1533x657/63bece6c866ac310e0291e36');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .herosection-background-large::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(26, 24, 61);
+        background: linear-gradient(0deg,#081329 0%, rgba(6,6,57,0.18735416529893212) 82%);
+    }
+    .hide {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+    .swiper {
+        width: 10%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .behzat {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/424x636/63849e3a866ac308c06ae9f9');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .benbu {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/63c16a13866ac303a070d938');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .yesilcam {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/617ef44f866ac3272090c99e');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .kiyma {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/628d056d866ac3258c6708e5');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .birankara {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/638b4c1f866ac316f4c6dcf6');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .bizden {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/61f401a7866ac32b60e57a80');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .saygi {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/6172bdf4866ac3307c1e0faf');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .ilkson {
+        background-image: url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/336x510/6111497c866ac30acc27b426');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+}
